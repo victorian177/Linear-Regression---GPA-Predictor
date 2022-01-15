@@ -7,4 +7,4 @@ In **gpa_linear_regression**, the dataset is first split into two, training(X) a
 
 Gradient descent is then calculated by implemented using the formula above. Learning rate is varied while keeping the number of iterations constant. An ideal learning rate is found to be 0.5. Iterations are then varied while learning rate is kept constant. All results are shown using graphs.
 
-The above steps are carried out for the different dataset sizes and upon inspection (i.e using plots and using mean squared error as the measure of accuracy. Datasets of 2000 5000 gave the best accuracy(the smaller the MSE, the better the accuracy).
+The above steps are carried out for the different dataset sizes and upon inspection (i.e using plots and using mean squared error as the measure of accuracy. Datasets of 2000, 5000 gave the best accuracy(the smaller the MSE, the better the accuracy).
