@@ -12,4 +12,8 @@ The above steps are carried out for the different dataset sizes and upon inspect
 fastai library is then used to implement the GPA Predictor in **gpa_predictor - fast_ai**.
 
 ***Results***
-T**gpa_linear_regression** normalised by the scaling 
+Using mean-squared error(MSE) as the measure of accuracy, **gpa_predictor - linear_regression** has MSE values between 3.68 and 4.47 (the lower the MSE value, the better the performance). The MSE value at about 3.6 was gotten at dataset lengths of 2000 and 5000 with a learning rate of 0.5 and iterations set to 1000. Normalisation was done by scaling down the score values by 100. 
+**gpa_predictor - fast_ai**, however, was able to achieve an MSE of 1.4 using a dataset length of 5000, learning rate was found to be 1, iterations over the dataset set to 100. [Normalisation](https://docs.microsoft.com/en-us/previous-versions/azure/machine-learning/studio-module-reference/normalize-data#:~:text=Normalization%20is%20a%20technique%20often,of%20values%20or%20losing%20information.) was as used by PyTorch which is standardisation(z-score).
+
+MSE was calculated using **gpa_test_scores**.
+
