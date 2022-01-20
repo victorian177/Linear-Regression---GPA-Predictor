@@ -10,3 +10,6 @@ In **gpa_linear_regression**, the dataset is first split into two, training(X) a
 The above steps are carried out for the different dataset sizes and upon inspection (i.e using plots and using mean squared error as the measure of accuracy. Datasets of 2000, 5000 gave the best accuracy(the smaller the MSE, the better the accuracy).
 
 fastai library is then used to implement the GPA Predictor in **gpa_predictor - fast_ai**.
+
+***Results***
+T**gpa_linear_regression** normalised by the scaling 
